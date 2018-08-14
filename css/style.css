@@ -17,23 +17,40 @@ body{
 
 header{
 	width: 100%;
-	height: 100vh;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	z-index: 100;
+}
+
+#menu{
+	display: none;
+	width: 50px;
+	height: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: #adadad;
+	font-size: 1em;
+	padding: 5px;
+
 }
 
 nav{
-	position: fixed;
-	z-index: 1;
 	width: 100%
 	height:50px;
 	font-size: 14pt;
 	line-height: 50px;
 }
 
-h1{
+/*h1{
 	font-size: 1.1em;
 }
-
-h2{
+*/
+h1{
 	font-size: 8em;
 	font-weight: bold;
 	color: #4dbeb0;
@@ -53,8 +70,12 @@ h5{
 	font-size: 1em;
 	margin-top: 25px;
 }
-.logo{
-	color: #4dbeb0;
+#logo{
+	width: auto;
+	height:50px;
+	line-height: 50px;
+	margin: 5px;
+	padding: 8px;
 	float: left;
 }
 
@@ -73,7 +94,7 @@ nav ul,li{
 
 li a {
     display: block;
-    color: #dbdbdb;
+    color: #adadac;
     text-align: center;
     text-decoration: none;
 }
@@ -196,7 +217,7 @@ h4{
 
 .box1:hover{
 	background-image: url("../img/about_01_a.jpg");
-
+	
 	opacity: 0.95;
     filter: alpha(opacity=50);
 	color: grey;
@@ -220,7 +241,7 @@ h4{
 
 .box2:hover{
 	background-image: url("../img/about_02_b.jpg");
-
+	
 	opacity: 0.95;
     filter: alpha(opacity=50);
 	color: grey;
@@ -238,7 +259,7 @@ h4{
 
 .box3:hover{
 	background-image: url("../img/about_03_c.jpg");
-
+	
 	opacity: 0.95;
     filter: alpha(opacity=50);
 	color: grey;
@@ -518,7 +539,7 @@ h4{
 
 .bxx1{
 	width: 272px;
-	height:300px;
+	height:300px; 
 	align-items: center;
 	justify-content: center;
 	/*background-image: url("../img/team_01.jpg");*/
@@ -679,7 +700,7 @@ br{
 
 .form_container{
 	height: 100%;
-	width: 100%;
+	width: 100%;	
 	margin: 0 auto;
  	padding: 0;
 }
@@ -808,7 +829,7 @@ h5{
 #about{
   height: 100vh;
   width: 100%;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .bx_wrap{
@@ -904,7 +925,7 @@ h5{
 }
 #contact p{
 	font-size: 1em;
-
+	
 }
 
  .contact_address{
@@ -948,55 +969,97 @@ footer p{
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
 
-nav ul{
-	display: none;
-}
-h2{
-	font-size: 2em;
-}
-
-.content p{
-	overflow: hidden;
+header{
+		position: absolute;
+	}
+	
+	#menu{
+		display: inline-block;
+	}
+	.menu_toggle_icon{
 	font-size: 1em;
-}
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 100;
+	padding-right: 10px;
+	}
 
-h5{
-	font-size: 0.50em;
+	nav ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background-color: #434343;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	
 
-}
-    #banner{
-	height: auto;
-	width: 100%;
-	/*display: flex;*/
-}
-#banner .bg-image{
-	height: auto;
+#banner{
+	height: 100vh;
 	width: 100%;
 }
+	h1{
+		font-size: 1.4em;
+		padding: 0;
+		margin: 0;
+	}
+	.content{
+		width: 75%;
+		height: auto;
+		margin: 100px auto;
+		text-align: center;
+	}
+
+	.content p{
+		color: white;
+		font-size: 1em;
+		margin-top: 0;
+		padding-top: 0;
+	}
+	.btn{
+		border-radius: 1px;
+		padding: 5px 10px;
+		border: solid #b97a43 1px;
+		text-align: center;
+		color: white;
+	}
+	h5{
+		font-size: 0.60em;
+		
+	}
+
 
 #about{
-  height: auto;
+  height: 100vh;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
-h3{
-	font-size: 2em;
-	font-weight: bold;
-}
+	h3{
+		font-size: 1.5em;
+		font-weight: bold;
+	}
 
-h4{
-	font-size: 1em;
-}
+	h4{
+		font-size: 1em;
+	}
 
-.bx_wrap{
-	width: 100%;
-	height: auto;
-}
-.box1{
-	width: auto;
-	height:auto;
-}
+	.bx_wrap{
+		width: 100%;
+		height: 100vh;
+	}
+	.bx_wrap li{
+	display: block;
+	}
+	.bx_wrap img{
+		display: block;
+	}
+
 
 #services{
   height: 100vh;

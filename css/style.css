@@ -1171,3 +1171,229 @@ footer{
 
 
 }
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	header{
+		position: absolute;
+	}
+	
+	#menu{
+		display: inline-block;
+	}
+	.menu_toggle_icon{
+	font-size: 1em;
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 100;
+	padding-right: 10px;
+	}
+
+	nav ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background-color: #434343;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	
+
+#banner{
+	height: 100vh;
+	width: 100%;
+}
+	h1{
+		font-size: 1.2em;
+		padding: 0;
+		margin: 0;
+	}
+	.content{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top:10%;
+		bottom:  90%;
+		right: 25%;
+		left: 25%;
+		z-index: 1;
+
+	}
+
+	.content p{
+		color: white;
+		font-size: 1em;
+		margin: 0 auto;
+		padding: 0;
+		align-items: center;
+		text-align: center;
+	}
+	.btn{
+		border-radius: 1px;
+		padding: 5px 10px;
+		border: solid #b97a43 1px;
+		text-align: center;
+		color: white;
+	}
+	.btn:hover{
+		background-color:#49c5b6;
+	}
+	h5{
+		font-size: 0.60em;	
+	}
+
+}
+
+.content_wrap{
+	height:auto;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#about{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  /*padding-top: 60px;
+  padding-bottom: 60px;*/
+  margin-bottom: 40px;
+  margin-top: 40px;
+ }
+
+ h2{
+	font-size:2em;
+	font-weight: bolder;
+	color: #3c4142;
+	/*padding: 20px 0 20px 0;*/
+}
+
+ #abouts h3{
+ 	padding-top: 50px;
+ }
+
+h3{
+	font-size: 1em;
+	color: #49c5b6;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#about p{
+	color: #333;
+	text-align: left;
+	margin-top: 5px;
+}
+
+#about a{
+	text-align: left;
+
+}
+
+.know{
+	color: #b97a43;
+}
+
+.bx_wrap{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.bx_wrap ul{
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.box1{
+	width: 374px;
+	height:390px;
+	background-image: url("../img/about_01.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+.box1:hover{
+	background-image: url("../img/about_01_a.jpg");
+	
+	opacity: 0.95;
+    filter: alpha(opacity=50);
+	color: grey;
+	/*transform: scale(1.05);*/transition: all 0.5s ease;
+	z-index: 1;
+}
+
+.box_cont{
+	width: 374px;
+	margin: 0;
+	padding: 0;
+}
+
+.box2{
+	width: 374px;
+	height:390px;
+	background-image: url("../img/about_02.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+.box2:hover{
+	background-image: url("../img/about_02_b.jpg");
+	
+	opacity: 0.95;
+    filter: alpha(opacity=50);
+	color: grey;
+	/*transform: scale(1.05);*/transition: all 0.5s ease;
+	z-index: 1;
+}
+
+.box3{
+	width: 374px;
+	height:390px;
+	background-image: url("../img/about_03.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+.box3:hover{
+	background-image: url("../img/about_03_c.jpg");
+	
+	opacity: 0.95;
+    filter: alpha(opacity=50);
+	color: grey;
+	transition: all 0.5s ease;
+	z-index: 1;
+}
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}

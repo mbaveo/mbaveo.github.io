@@ -1,5 +1,7 @@
 <?php
 
+include(index.html);
+
 if (isset(($_POST['submit']))  {
 	# code..
 	$name = $_POST['name'];

@@ -22,7 +22,7 @@ header{
 	top: 0;
 	left: 0;
 	z-index: 100;
-	
+
 }
 
 #menu{
@@ -234,7 +234,7 @@ section{
 
 	.box1:hover{
 		background-image: url("../img/about_01_a.jpg");
-		
+
 		opacity: 0.95;
 	    filter: alpha(opacity=50);
 		color: grey;
@@ -258,7 +258,7 @@ section{
 
 	.box2:hover{
 		background-image: url("../img/about_02_b.jpg");
-		
+
 		opacity: 0.95;
 	    filter: alpha(opacity=50);
 		color: grey;
@@ -276,7 +276,7 @@ section{
 
 	.box3:hover{
 		background-image: url("../img/about_03_c.jpg");
-		
+
 		opacity: 0.95;
 	    filter: alpha(opacity=50);
 		color: grey;
@@ -565,7 +565,7 @@ h4{
 
 .bxx1{
 	width: 272px;
-	height:300px; 
+	height:300px;
 	align-items: center;
 	justify-content: center;
 	/*background-image: url("../img/team_01.jpg");*/
@@ -726,7 +726,7 @@ br{
 
 .form_container{
 	height: 100%;
-	width: 100%;	
+	width: 100%;
 	margin: 0 auto;
  	padding: 0;
 }
@@ -951,7 +951,7 @@ h5{
 }
 #contact p{
 	font-size: 1em;
-	
+
 }
 
  .contact_address{
@@ -998,7 +998,7 @@ footer p{
 header{
 		position: absolute;
 	}
-	
+
 	#menu{
 		display: inline-block;
 	}
@@ -1023,7 +1023,7 @@ header{
 	nav:hover ul{
 		display: block;
 	}
-	
+
 
 #banner{
 	height: 100vh;
@@ -1065,7 +1065,7 @@ header{
 		background-color:#49c5b6;
 	}
 	h5{
-		font-size: 0.60em;	
+		font-size: 0.60em;
 	}
 
 #about{
@@ -1182,5 +1182,4 @@ footer{
 
 
 }
-
-
+s

@@ -510,11 +510,11 @@ h4{
 }
 .container{
 	/*position: absolute;*/
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 0;
 	/*transform: translate(50%, 50%);*/
 	width: 1175px;
-	height: 500px;
+	height: 588px;
 	display: flex;
 }
 
@@ -674,7 +674,7 @@ h4{
 
 /*########################################################*/
 
-/*------------- ourteam ----------------------------------*/
+/*------------- OUR TEAM----------------------------------*/
 
  #ourteam{
    height: 100vh;
@@ -688,7 +688,6 @@ h4{
  #ourteam p{
  	width: 65%;
  	font-size: 1.4em;
- 	/*font-weight: bold;*/
  	color: #3c4142;
  	margin: 0 auto;
  	padding: 0;
@@ -696,7 +695,7 @@ h4{
 
 #team_bxx{
 	height: 300px;
-	width: auto;  margin-bottom: 40px;
+	width: auto;  /*margin-bottom: 40px;*/
 }
 
  #ourteam h3{
@@ -714,67 +713,62 @@ h4{
 	display: inline-block;
 }
 
-/*.bxx{
+.team_img{
 	width: 272px;
 	height:300px;
-	background-color: #333;
-	text-align: justify;
-	color: #ccc;
-	cursor: pointer;
-	position: relative;
-	margin-top: 10px;
-	transition: all 0.5s ease;
-}*/
-
-.bxx1{
-	width: 272px;
-	height:300px;
-	align-items: center;
-	justify-content: center;
-	/*background-image: url("../img/team_01.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	position:relative;
-  cursor: pointer;
 }
 
-.bxx1 :hover{
-	height:300px;
-}
-
-.hvr{
-  height:300px;
-}
-
-.bxx1 img{
+.team_img img{
   display: block;
   width: 272px;
   height: 300px;
 }
 
-.hvr{
-	width:272px;
-  height:50px;
-  position: absolute;
-  background: rgba(60, 65, 66, 0.9);
-  bottom: 0;
-  /*display: flex;*/
-  /*text-align: center;
-  justify-content: center;*/
-  align-items: center;
-  overflow: hidden;
-  transition: 0.5s ease;
+.team_img:hover{
+	cursor: pointer;
 }
 
-figcaption{
+.info{
 	color: white;
-	padding: 10px;
+	font-size: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
 }
 
-.hvr h6{
-  color: white;
-  font-size: 1em;
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background: rgba(97, 197, 185, 0.77);
 }
+.team_img:hover .overlay{
+    opacity: 1.5;
+}
+
+.top{
+    width: 100%;
+    height: 0;
+    top:0;
+    left:0;
+    background: rgba(97, 197, 185, 0.77);
+}
+
+.team_img:hover .top{
+    height: 100%;
+}
+
+
+.overlay h6{
+  color: white;
+ 	font-size: 20px;
+}
+
+/*------------- OUR TEAM END----------------------------------*/
 
 #contact{
    height: 100vh;
@@ -867,13 +861,14 @@ br{
 
 
 #contact_icons li{
- 	font-size: 20px;
+	color: #b97a43;
+ 	font-size: 25px;
  	margin: 10px 10px;
  	font-size: 20px;
  	padding: 20px 20px;
  	border: 2px solid grey;
  	border-radius: 50%;
- 	/*transition: .5s;*/
+ 	transition: .5s;
  }
 #contact_icons li:hover{
 	color: #3c4142;
@@ -882,7 +877,7 @@ br{
 	transform: scale(1.1);
 	opacity: 0.90;
     filter: alpha(opacity=50);
-	/*transition:.5s;*/
+	transition:.5s;
 	cursor: pointer;
 	background-color: #49c5b6;
 }

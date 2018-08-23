@@ -695,7 +695,8 @@ h4{
 
 #team_bxx{
 	height: 300px;
-	width: auto;  /*margin-bottom: 40px;*/
+	width: auto;
+	margin-top: 15px;
 }
 
  #ourteam h3{
@@ -964,7 +965,7 @@ footer p{
 	float: left;
 }
 
-/*------------- FOOTER ---------------------------------------*/
+
 
 /* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {

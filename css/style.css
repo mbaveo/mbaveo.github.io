@@ -15,6 +15,10 @@ body{
 	font-family: "Catamaran";
 }
 
+img{
+	max-width: 100%;
+}
+
 header{
 	width: 100%;
 	height: 50px;
@@ -185,7 +189,7 @@ section{
   margin-top: 40px;
  }
  	/*>>> about sub-head 'creatives.visualize.....'*/
-	 #abouts h3{
+	 #about h3{
 	 	padding-top: 50px;
 	 }
 
@@ -826,12 +830,35 @@ footer p{
 	text-align: center;
 }
 
+.content p{
+		color: white;
+		font-size: 1.4em;
+		margin-top: 0;
+		padding-top: 0;
+	}
+.btn{
+		border-radius: 1px;
+		padding: 5px 5px;
+		border: solid #b97a43 1px;
+		text-align: center;
+		color: white;
+	}
+	.btn a:link{
+		text-decoration: none;
+		color:white;
+	}
+
+	h5{ /*-- know more---*/
+	font-size: 12px;
+	margin-top: 12px;
+	}
+
 h1{
-	font-size: 1em;
+	font-size: 1.9em;
 }
 
 h2{
-	font-size: 4em;
+	font-size: 2.8em;
 	font-weight: bold;
 }
 
@@ -852,41 +879,99 @@ h5{
 }
 
 #about{
-  height: 100vh;
+  height: auto;
   width: 100%;
  /* overflow: hidden;*/
 }
 
-.bx_wrap{
-	width: 100%;
-}
+h3{
+		font-size: 1.5em;
+		color: #49c5b6;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
 
-.box1{
-	width: 100%;
-	height:100vh;
-}
+	#about p{
+		color: #333;
+		text-align: left;
+		margin-top: 5px;
+	}
 
-.box_cont{
-	width: 100%;
-	height: 100vh;
-}
+	/*.bx_wrap{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
 
-.box2{
-	width: 100%;
-	height: 100vh;
-}
+	.bx_wrap ul{
+		margin: 0 auto;
+		padding: 0;
+	}
+*/
 
+	.box1{
+		width: 100%;
+		height:390px;
+		background-image: url("../img/about_01.jpg");
+		margin: 0;
+		padding: 0;
+	}
 
-.box3{
-	width: 374px;
-	height:390px;
-	background-image: url("../img/about_03.jpg");
-	margin: 0;
-	padding: 0;
-}
+	.box1:hover{
+		background-image: url("../img/about_01_a.jpg");
+
+		opacity: 0.95;
+	    filter: alpha(opacity=50);
+		color: grey;
+		/*transform: scale(1.05);*/transition: all 0.5s ease;
+		z-index: 1;
+	}
+
+	.box_cont{
+		width: 374px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.box2{
+		width: 374px;
+		height:390px;
+		background-image: url("../img/about_02.jpg");
+		margin: 0;
+		padding: 0;
+	}
+
+	.box2:hover{
+		background-image: url("../img/about_02_b.jpg");
+
+		opacity: 0.95;
+	    filter: alpha(opacity=50);
+		color: grey;
+		/*transform: scale(1.05);*/transition: all 0.5s ease;
+		z-index: 1;
+	}
+
+	.box3{
+		width: 374px;
+		height:390px;
+		background-image: url("../img/about_03.jpg");
+		margin: 0;
+		padding: 0;
+	}
+
+	.box3:hover{
+		background-image: url("../img/about_03_c.jpg");
+
+		opacity: 0.95;
+	    filter: alpha(opacity=50);
+		color: grey;
+		transition: all 0.5s ease;
+		z-index: 1;
+	}
 
 #services{
-  height: 100vh;
+  height: auto;
   width: 100%;
   overflow: hidden;
  }
@@ -907,7 +992,7 @@ h5{
 }
 
 #works{
-   height: 100vh;
+   height: auto;
    width: 100%;
 }
 .box_cont_works{
@@ -926,7 +1011,7 @@ h5{
 	}
 
 #ourteam{
-   height: 100vh;
+   height: auto;
    width: 100%;overflow: hidden;
 }
 #ourteam p{
@@ -945,7 +1030,7 @@ h5{
   height: 300px;
 }
 #contact{
-   height: 100vh;
+   height: auto;
    width: 100%
 }
 #contact p{
@@ -1177,7 +1262,4 @@ footer{
 }
 .rights_policy{
 	width: 90%;
-}
-
-
 }

@@ -93,7 +93,7 @@ nav ul,li{
 
 li a {
     display: block;
-    color: #adadac;
+    color: #848484;
     text-align: center;
     text-decoration: none;
 }
@@ -113,7 +113,7 @@ a:link
 	background-position: center center;
 }
 
-
+	
 	#banner .bg-image{
 		height:650px;
 		width: 100%;
@@ -182,7 +182,7 @@ section{
   text-align: center;
   background-color: #fff;
   margin-bottom: 40px;
-  margin-top: 40px;
+/*  margin-top: 40px;*/
  }
  	/*>>> about sub-head 'creatives.visualize.....'*/
 	 #about h3{
@@ -690,23 +690,15 @@ h4{
 #contact_icons li{
 	color: #3c4142;
  	font-size: 30px;
- 	margin: 10px 10px;
- 	font-size: 20px;
- 	padding: 20px 20px;
- 	border: 2px solid grey;
+ 	
+ 	padding: 30px 30px;
+ 	/*border: 2px solid grey;
  	border-radius: 50%;
- 	transition: .5s;
+ 	transition: .5s;*
+ 	margin: 10px 10px; */
  }
 #contact_icons li:hover{
-	color: #3c4142;
-	border: 2px solid #49c5b6;
-	transition: 0.1s;
-	transform: scale(1.1);
-	opacity: 0.90;
-    filter: alpha(opacity=50);
-	transition:.5s;
 	cursor: pointer;
-	background-color: #49c5b6;
 }
 
 .form_container{
@@ -750,6 +742,7 @@ input[type="email"]{
 	margin-top: 15px;
 	margin-bottom: 5px;
 	height: 80px;
+	font-family: Catamaran;
 }
 input[type="submit"]{
 	border: none;

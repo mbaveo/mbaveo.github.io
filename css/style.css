@@ -622,7 +622,7 @@ left: 0;
 
  .contact_address{
  	width: 50%;
- 	height: auto;
+ 	height: 100%;
  	background-color:#ececec;
  	float: left;
  	margin: 25px 0;
@@ -641,21 +641,37 @@ left: 0;
  	height: auto;
  	float: left;
  	color: #3c4142;
+ 	/*background-color: blue;*/
+ 	margin: 0;
+ 	padding-top: 10px;
+}
+#align{
+	float: left;
+}
+#align li{
+	display: block;
 }
 
 #inner_addrs{
-	width:50%;
+	width:90%;
  	height: auto;
  	float: left;
  	margin-left: 35px;
- 	margin-bottom: 19px;
+ 	/*margin-bottom: 20px;
+ 	padding-top: 10px;
+ 	padding-bottom: 15px;*/
+}
+.align-ad{
+	float: left;
+	text-align: left;
+
 }
 
 #inner_addrs p{
-	/*padding-top: 15px;*/
+	padding-top: 15px;padding-bottom: 15px;margin-bottom: 5px;
 	font-size: 17px;
 	color: #3c4142;
-	padding: 0;
+
 }
 
 #inner_addrs a{
@@ -787,15 +803,17 @@ footer p{
 
 
 /* On screens that are 992px wide or less*/
+
 @media screen and (max-width: 992px) {
-    nav ul{
-	display: none;
+
+nav ul{
+display: none;
 }
 
-    #banner{
-	height: 100vh;
-	width: 100%;
-	/*display: flex;*/
+#banner{
+height: 100vh;
+width: 100%;
+/*display: flex;*/
 }
 #banner .bg-image{
 	height: 100vh;
@@ -817,27 +835,27 @@ footer p{
 }
 
 .content p{
-		color: white;
-		font-size: 1.4em;
-		margin-top: 0;
-		padding-top: 0;
+	color: white;
+	font-size: 1.4em;
+	margin-top: 0;
+	padding-top: 0;
 	}
 .btn{
-		border-radius: 1px;
-		padding: 5px 5px;
-		border: solid #b97a43 1px;
-		text-align: center;
-		color: white;
+	border-radius: 1px;
+	padding: 5px 5px;
+	border: solid #b97a43 1px;
+	text-align: center;
+	color: white;
 	}
-	.btn a:link{
-		text-decoration: none;
-		color:white;
-	}
+.btn a:link{
+	text-decoration: none;
+	color:white;
+}
 
-	h5{ /*-- know more---*/
-	font-size: 12px;
-	margin-top: 12px;
-	}
+h5{ /*-- know more---*/
+font-size: 12px;
+margin-top: 12px;
+}
 
 h1{
 	font-size: 1.9em;
@@ -871,90 +889,79 @@ h5{
 }
 
 h3{
-		font-size: 1.5em;
-		color: #49c5b6;
-		margin: 0;
-		padding: 0;
-		text-align: center;
-	}
+	font-size: 1.5em;
+	color: #49c5b6;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
 
-	#about p{
-		color: #333;
-		text-align: left;
-		margin-top: 5px;
-	}
+#about p{
+	color: #333;
+	text-align: left;
+	margin-top: 5px;
+}
 
-	/*.bx_wrap{
-		width: 100%;
-		margin: 0 auto;
-		padding: 0;
-	}
 
-	.bx_wrap ul{
-		margin: 0 auto;
-		padding: 0;
-	}
-*/
+.box1{
+	width: 100%;
+	height:390px;
+	background-image: url("../img/about_01.jpg");
+	margin: 0;
+	padding: 0;
+}
 
-	.box1{
-		width: 100%;
-		height:390px;
-		background-image: url("../img/about_01.jpg");
-		margin: 0;
-		padding: 0;
-	}
+.box1:hover{
+	background-image: url("../img/about_01_a.jpg");
 
-	.box1:hover{
-		background-image: url("../img/about_01_a.jpg");
+	opacity: 0.95;
+    filter: alpha(opacity=50);
+	color: grey;
+	/*transform: scale(1.05);*/transition: all 0.5s ease;
+	z-index: 1;
+}
 
-		opacity: 0.95;
-	    filter: alpha(opacity=50);
-		color: grey;
-		/*transform: scale(1.05);*/transition: all 0.5s ease;
-		z-index: 1;
-	}
+.box_cont{
+	width: 374px;
+	margin: 0;
+	padding: 0;
+}
 
-	.box_cont{
-		width: 374px;
-		margin: 0;
-		padding: 0;
-	}
+.box2{
+	width: 374px;
+	height:390px;
+	background-image: url("../img/about_02.jpg");
+	margin: 0;
+	padding: 0;
+}
 
-	.box2{
-		width: 374px;
-		height:390px;
-		background-image: url("../img/about_02.jpg");
-		margin: 0;
-		padding: 0;
-	}
+.box2:hover{
+	background-image: url("../img/about_02_b.jpg");
 
-	.box2:hover{
-		background-image: url("../img/about_02_b.jpg");
+	opacity: 0.95;
+    filter: alpha(opacity=50);
+	color: grey;
+	/*transform: scale(1.05);*/transition: all 0.5s ease;
+	z-index: 1;
+}
 
-		opacity: 0.95;
-	    filter: alpha(opacity=50);
-		color: grey;
-		/*transform: scale(1.05);*/transition: all 0.5s ease;
-		z-index: 1;
-	}
+.box3{
+	width: 374px;
+	height:390px;
+	background-image: url("../img/about_03.jpg");
+	margin: 0;
+	padding: 0;
+}
 
-	.box3{
-		width: 374px;
-		height:390px;
-		background-image: url("../img/about_03.jpg");
-		margin: 0;
-		padding: 0;
-	}
+.box3:hover{
+	background-image: url("../img/about_03_c.jpg");
 
-	.box3:hover{
-		background-image: url("../img/about_03_c.jpg");
-
-		opacity: 0.95;
-	    filter: alpha(opacity=50);
-		color: grey;
-		transition: all 0.5s ease;
-		z-index: 1;
-	}
+	opacity: 0.95;
+    filter: alpha(opacity=50);
+	color: grey;
+	transition: all 0.5s ease;
+	z-index: 1;
+}
 
 #services{
   height: auto;

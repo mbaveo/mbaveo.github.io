@@ -1361,6 +1361,10 @@ z-index: 1;
 	font-size: 1em;
 
 }
+.lets_talk h4{
+	color: #3c4142;
+	font-size: 1.3em;
+}
 
  .contact_address{
  	width: 100%;
@@ -1369,6 +1373,17 @@ z-index: 1;
 h6{
 	font-size: 0.5em;
 }
+
+#contact_icons li a{
+	color: #616060;
+ 	font-size: 25px;
+
+ 	padding: 30px 30px 0px 30px;
+ 	/*border: 2px solid grey;
+ 	border-radius: 50%;
+ 	transition: .5s;*
+ 	margin: 10px 10px; */
+ }
 
 .contact_form{
  	width: 100%;

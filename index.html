@@ -27,6 +27,16 @@
             </ul>
           </nav>
 
+          <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  ></script>
+  <script>
+    $(document).ready(function(){
+      $('.menu').click(function(){
+        $('ul').toggleClass('active')
+      })
+    })
+  </script>
         </header>
   <!-- HeaderEnd -->
 
@@ -346,8 +356,6 @@
             </div>
 
             <div class="form_container">
-
-
 
               <form id="contact_form" method="post" action="contact.php">
                 <input type="text" name="name" placeholder="Name" required>

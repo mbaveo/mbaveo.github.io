@@ -15,6 +15,16 @@
         <header>
           <a href="index.html" id="logo"><img src="img/logo_min.png" alt=""></a>
 
+          <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  ></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu').click(function(){
+        $('ul').toggleClass('active')
+      })
+    })
+  </script>
           <nav>
           <a href="" id="menu"><span class="menu_toggle_icon"><i class="fas fa-bars"></i></span></a>
             <ul>
@@ -27,16 +37,6 @@
             </ul>
           </nav>
 
-          <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  ></script>
-  <script>
-    $(document).ready(function(){
-      $('.menu').click(function(){
-        $('ul').toggleClass('active')
-      })
-    })
-  </script>
         </header>
   <!-- HeaderEnd -->
 

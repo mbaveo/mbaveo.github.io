@@ -1128,6 +1128,8 @@ nav:hover ul{
 #banner{
 height: 100vh;
 width: 100%;
+margin: 0 auto;
+padding: 0;
 }
 
 #banner .bg-image{
@@ -1246,7 +1248,7 @@ padding: 0;
 
 
 .box1{
-width: 374px;
+width: 300px;
 height:390px;
 background-image: url("../img/about_01.jpg");
 margin: 0;
@@ -1263,13 +1265,13 @@ z-index: 1;
 }
 
 .box_cont{
-width: 374px;
+width: 300px;
 margin: 0;
 padding: 0;
 }
 
 .box2{
-width: 374px;
+width: 300px;
 height:390px;
 background-image: url("../img/about_02.jpg");
 margin: 0;
@@ -1286,7 +1288,7 @@ z-index: 1;
 }
 
 .box3{
-width: 374px;
+width: 300px;
 height:390px;
 background-image: url("../img/about_03.jpg");
 margin: 0;

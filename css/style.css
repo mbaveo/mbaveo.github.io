@@ -1015,12 +1015,12 @@ h3{
 }
 
 #works{
-   height: auto;
+   height: 800px;
    width: 100%;
 }
 .box_cont_works{
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	overflow: hidden;
 }
 

@@ -1248,15 +1248,17 @@ padding: 0;
 
 
 .box1{
-width: 300px;
+width: auto;
 height:390px;
 background-image: url("../img/about_01.jpg");
+background-repeat: no-repeat;
 margin: 0;
 padding: 0;
 }
 
 .box1:hover{
 background-image: url("../img/about_01_a.jpg");
+background-repeat: no-repeat;
 opacity: 0.95;
 filter: alpha(opacity=50);
 color: grey;
@@ -1265,21 +1267,23 @@ z-index: 1;
 }
 
 .box_cont{
-width: 300px;
+width: auto;
 margin: 0;
 padding: 0;
 }
 
 .box2{
-width: 300px;
+width: auto;
 height:390px;
 background-image: url("../img/about_02.jpg");
+background-repeat: no-repeat;
 margin: 0;
 padding: 0;
 }
 
 .box2:hover{
 background-image: url("../img/about_02_b.jpg");
+background-repeat: no-repeat;
 opacity: 0.95;
 filter: alpha(opacity=50);
 color: grey;
@@ -1288,15 +1292,17 @@ z-index: 1;
 }
 
 .box3{
-width: 300px;
+width: auto;
 height:390px;
 background-image: url("../img/about_03.jpg");
+background-repeat: no-repeat;
 margin: 0;
 padding: 0;
 }
 
 .box3:hover{
 background-image: url("../img/about_03_c.jpg");
+background-repeat: no-repeat;
 opacity: 0.95;
 filter: alpha(opacity=50);
 color: grey;

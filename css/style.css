@@ -831,14 +831,21 @@ nav ul{
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 500px;
 }
 /*nav:hover ul{
 	display: block;
-}*/
-nav ul li{
-display: block;
 }
+*/
+nav ul li{
+	display: block;
+}
+
+.active{
+	display: block;
+}
+
+
+
 
 #banner{
 height: 100vh;

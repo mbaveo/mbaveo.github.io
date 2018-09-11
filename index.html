@@ -12,21 +12,22 @@
   </head>
   <body>
 <!-- Header -->
-        <header>
-          <a href="index.html" id="logo"><img src="img/logo_min.png" alt=""></a>
-
-          <script
+               <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   ></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      $('menu').click(function(){
+      $('#menu').click(function(){
         $('ul').toggleClass('active')
       })
     })
   </script>
+        <header>
+          <a href="index.html" id="logo"><img src="img/logo_min.png" alt=""></a>
+
+
           <nav>
-          <a href="" id="menu"><span class="menu_toggle_icon"><i class="fas fa-bars"></i></span></a>
+          <a href="#" id="menu"><span class="menu_toggle_icon"><i class="fas fa-bars"></i></span></a>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -38,6 +39,7 @@
           </nav>
 
         </header>
+
   <!-- HeaderEnd -->
 
   <!-- Banner-->

@@ -475,11 +475,19 @@ h4 {
 		left: 0;
 		transform: translate(0);
 	}
-	/*.container .box{
+	.container{
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+	}
+	.container .box{
 		width: 100%;
 		height:inherit;
 		float: none;
-	}*/
+	}
+	.container .box .thumb img {
+		display: none;
+	}
 }
 
 /*------------ works end ---------------------------------*/

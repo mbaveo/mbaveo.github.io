@@ -200,10 +200,15 @@ h3 {
 
 #about a {
 	text-align: left;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 
 .know {
 	color: #b97a43;
+}
+#about a :hover {
+	color: orange;
 }
 
 .bx_wrap {
@@ -232,6 +237,7 @@ h3 {
 	color: grey;
 	/*transform: scale(1.05);*/transition: all 0.5s ease;
 	z-index: 1;
+	cursor: pointer;
 }
 
 .box_cont {
@@ -255,6 +261,7 @@ h3 {
 	color: grey;
 	/*transform: scale(1.05);*/transition: all 0.5s ease;
 	z-index: 1;
+	cursor: pointer;
 }
 
 .box3 {
@@ -272,6 +279,7 @@ h3 {
 	color: grey;
 	transition: all 0.5s ease;
 	z-index: 1;
+	cursor: pointer;
 }
 /*----------------about end -------------------------------------*/
 #services {
@@ -441,15 +449,11 @@ h4 {
 	.container{
 		width: 100%;
 		height: auto;
-		padding: 20px;
 		box-sizing: border-box;
 	}
-	.container .box{
-		height: 250px;
-	}
-	.container .box .thumb{
-		display: none;
-	}
+	/*.container .box{
+		height: inherit;
+	}*/
 }
 
 @media (max-width: 768px)
@@ -458,7 +462,7 @@ h4 {
 		display: initial;
 	}
 	.container .box{
-		width: 50%;
+		width: 100%;
 		height: 250px;
 		float: left;
 	}
@@ -471,11 +475,11 @@ h4 {
 		left: 0;
 		transform: translate(0);
 	}
-	.container .box{
+	/*.container .box{
 		width: 100%;
-		height: 250px;
+		height:inherit;
 		float: none;
-	}
+	}*/
 }
 
 /*------------ works end ---------------------------------*/

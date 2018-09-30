@@ -335,7 +335,6 @@ h4 {
 .box_cont_works {
 	width: 1175px;
 	height: auto;
-
 	margin: 0 auto;
 }
 .container {
@@ -396,7 +395,7 @@ h4 {
 
 .container .box .details .content {
 	position: absolute;
-	top: calc(50%);
+	top: calc(50% + 16px);
 	transform: translateY(-50%);
 	width: 100%;
 	/*padding: 5px;*/
@@ -406,7 +405,7 @@ h4 {
 }
 
 .container .box:hover .details .content {
-	top: calc(40%);
+	top: calc(50%);
 	cursor: pointer;
 }
 
@@ -449,11 +448,12 @@ h4 {
 	.container{
 		width: 100%;
 		height: auto;
+		/*padding: 20px;*/
 		box-sizing: border-box;
 	}
-	/*.container .box{
-		height: inherit;
-	}*/
+	.container .box{
+		height: 294px;
+	}
 }
 
 @media (max-width: 768px)
@@ -462,8 +462,8 @@ h4 {
 		display: initial;
 	}
 	.container .box{
-		width: 100%;
-		height: 250px;
+		width: 50%;
+		height: 294px;
 		float: left;
 	}
 }
@@ -475,19 +475,11 @@ h4 {
 		left: 0;
 		transform: translate(0);
 	}
-	.container{
-		width: 100%;
-		height: auto;
-		box-sizing: border-box;
-	}
 	.container .box{
 		width: 100%;
-		height:inherit;
+		height: 294px;
 		float: none;
 	}
-	/*.container .box .thumb img {
-		display: none;
-	}*/
 }
 
 /*------------ works end ---------------------------------*/
@@ -1017,7 +1009,7 @@ h3 {
 	display: initial;
 }
 	.container .box{
-		width: 100%;
+		width: 50%;
 		height: 100vh;
 		float: left;
 	}
@@ -1320,7 +1312,7 @@ h4 {
 	overflow: hidden;
 }
 
-/*#works {
+#works {
 	height: auto;
 	width: auto;
 	overflow: hidden;
@@ -1338,27 +1330,10 @@ h4 {
 }
 .container .box {
 	width: 100%;
-	height: 250px;
+	height: 294px;
 	float: none;
-}*/
-#works {
-   height: auto;
-   width: auto;
-}
-.box_cont_works {
-	width: auto;
-	height:auto;
-	overflow: hidden;
 }
 
-.container {
-	display: initial;
-}
-	.container .box{
-		width: 100%;
-		height: 100vh;
-		float: left;
-	}
 
 
 #ourteam {

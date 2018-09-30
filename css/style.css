@@ -348,7 +348,7 @@ h4 {
 	position: relative;
 	width: 294px;
 	height: 588px;
-	background:#ccc;
+	/*background:#262626;*/
 	transition: 0.5s;
 }
 .container .box:hover {
@@ -395,7 +395,7 @@ h4 {
 
 .container .box .details .content {
 	position: absolute;
-	top: calc(50% + 16px);
+	top: calc(50%);
 	transform: translateY(-50%);
 	width: 100%;
 	/*padding: 5px;*/

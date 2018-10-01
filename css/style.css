@@ -131,29 +131,31 @@ a:link {
 	padding-top: 0;
 }
 
-.btn {
+.content a {
 	border-radius: 2px;
 	padding: 10px 20px;
-	border: solid #b97a43 2px;
+	border: solid #b97a43 1px;
 	text-align: center;
 	color: white;
-}
-
-.btn a:link {
 	text-decoration: none;
-	color:white;
-}
-.btn a:hover {
-	color: lightblue;
+	transition: 0.2s;
 }
 
 h5 { /*-- know more---*/
 	font-size: 1em;
 	margin-top: 25px;
 }
-h5 :hover{
-	color: #848484;
+.content a {
+	transform: scale(1);
 }
+.content a:hover {
+	color: #848484;
+	background: #262626;
+	cursor: pointer;
+	/*color: #fff;*/
+}
+
+
 /* -------BannerEnd ------------------------------------*/
 .content_wrap {
 	height:auto;
@@ -855,20 +857,24 @@ nav ul li {
 	margin-top: 0;
 	padding-top: 0;
 }
-.btn {
-	border-radius: 1px;
+.content a {
+	border-radius: 2px;
 	padding: 5px 5px;
 	border: solid #b97a43 1px;
 	text-align: center;
 	color: white;
-}
-.btn a:link {
 	text-decoration: none;
-	color:white;
+	transition: 0.2s;
 }
 
+.content a:hover {
+	color: #848484;
+	background: #262626;
+	cursor: pointer;
+	/*color: #fff;*/
+}
 h5 { /*-- know more---*/
-	font-size: 12px;
+	font-size: 11px;
 	margin-top: 12px;
 }
 
@@ -1168,20 +1174,26 @@ nav ul li {
 	margin-top: 0;
 	padding-top: 0;
 }
-.btn {
-	border-radius: 1px;
+.content a {
+	border-radius: 2px;
 	padding: 5px 5px;
 	border: solid #b97a43 1px;
 	text-align: center;
 	color: white;
-}
-.btn a:link {
 	text-decoration: none;
-	color:white;
+	transition: 0.2s;
 }
 
+.content a:hover {
+	color: #848484;
+	background: #262626;
+	cursor: pointer;
+	/*color: #fff;*/
+}
+
+
 h5 { /*-- know more---*/
-	font-size: 12px;
+	font-size: 10px;
 	/*margin-top: 12px;*/
 }
 

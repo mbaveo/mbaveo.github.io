@@ -1,24 +1,26 @@
 
-<?php 
+<?php
 
-$mailto = "maithri.my301@gmail.com";
-$page = "index.html";
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$mssg = $_POST['mssg'];
 
-$name = $_POST["name"];
-$email = $_POST["email"];
-$msg = $_POST["mssg"];
+	$email_from = 'maithribavd@gmail.com';
+	$email_subject ="New form submission";
+	$email_body ="User Name: $name.\n".
+					"User Email: $email.\n".
+					"User Message:$mssg.\n";
 
-$name = htmlentities($name,ENT_QUOTES, "UTF-8");
-$email = htmlentities($email,ENT_QUOTES, "UTF-8");
-$msg = htmlentities($msg,ENT_QUOTES, "UTF-8");
+	$to = "maithri.my301@gmail.com";
 
-$name = str_replace("\r\n",'"', $name);
-$email = str_replace("\r\n",'"', $email);
-$msg = str_replace("\r\n",'\t', $msg);
-$msg = str_replace("\r",'\t', $msg);
-$msg = str_replace("\n",'\t', $msg);
+	$headers = "From: $email_from \r\n";
+	$headers.= "Reply-To :$email \r\n";
+
+	mail($to,$email_subject,$email_body,$headers);
+
+	header("Location: index.html");
+
 
 echo "Thank You! $name We will get back to you soon!"
 
 ?>
-

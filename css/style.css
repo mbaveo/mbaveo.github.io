@@ -800,12 +800,13 @@ header {
 }
 
 .menu_toggle_icon {
-	font-size: 1em;
+	font-size: 1.4em;
 	position: absolute;
 	top:0;
 	right: 0;
 	z-index: 100;
 	padding-right: 10px;
+	position: fixed;
 }
 
 nav ul {
@@ -1123,6 +1124,7 @@ header {
 	right: 0;
 	z-index: 100;
 	padding-right: 10px;
+	position: fixed;
 }
 
 nav ul {

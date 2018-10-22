@@ -1006,9 +1006,21 @@ h3 {
   overflow: hidden;
  }
 
+#services p {
+	width: 80%;
+}
+
+
 .bx_wrap_serv {
 	width: 100%;
 }
+
+.bx_wrap_serv ul {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
 
 .box_cont_serv {
 	width: 100%;
@@ -1020,7 +1032,6 @@ h3 {
 	font-size: 1.5em;
 
 }
-
 #works {
    height: auto;
    width: auto;

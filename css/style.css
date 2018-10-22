@@ -1068,33 +1068,33 @@ h3 {
 	}
 
 	#ourteam {
-		height: auto;
-		width: 100%;
-		overflow: hidden;
-	}
-	#ourteam p {
-	 	width: 80%;
-	 	font-size: 1.2em;
-	}
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+#ourteam p {
+ 	width: 80%;
+ 	font-size: 1.2em;
+}
 
-	#team_bxx {
-		height:auto;
-		width: 100%;
-	}
+#team_bxx {
+	height:auto;
+	width: 100%;
+}
 
-	#team_bxx ul {
-		display: block;
-		flex: none;
-		justify-content: center;
-		margin: 0px;
-		padding: 0px;
-	}
+#team_bxx ul {
+	display: block;
+	flex: none;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
 
-	.bxx1 img {
-		 display: block;
-		 width: 272px;
-		 height: auto;
-	}
+.bxx1 img {
+	 display: block;
+	 width: 272px;
+	 height: auto;
+}
 #contact {
    height: auto;
    width: 100%

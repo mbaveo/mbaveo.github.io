@@ -175,7 +175,7 @@ section {
 }
 /* --------about ---------------------------------------*/
 #about {
-	height: auto;
+	height: 600px;
 	width: 100%;
 	text-align: center;
 	background-color: #fff;
@@ -222,70 +222,67 @@ h3 {
 }
 
 .bx_wrap ul {
-	margin: 0 auto;
-	padding: 0;
-}
-.wrap {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	justify-content: center;
 }
-.bx_wrap img {
-	width: 374px;
-	height:390px;
+.bx_wrap ul,li {
+	margin: 0;
+	padding-right: 0.2px;
 }
 
-.box1 {
-	width: 374px;
-	height:390px;
-	background-image: url("../img/about_01.jpg");
-	margin: 0;
-	padding: 0;
+.box1  img {
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 
 .box1:hover {
-	background-image: url("../img/about_01_a.jpg");
+	background-image: url("../img/about_01.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
 	opacity: 0.95;
 	filter: alpha(opacity=50);
 	color: grey;
-	/*transform: scale(1.05);*/transition: all 0.5s ease;
+	transition: all 0.5s ease;
 	z-index: 1;
 	cursor: pointer;
 }
 
 .box_cont {
-	width: 374px;
+	width: 400px;
 	margin: 0;
 	padding: 0;
 }
 
-.box2 {
-	width: 374px;
-	height:390px;
-	background-image: url("../img/about_02.jpg");
-	margin: 0;
-	padding: 0;
+.box2 img {
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 
 .box2:hover {
-	background-image: url("../img/about_02_b.jpg");
+	background-image: url("../img/about_02.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
 	opacity: 0.95;
 	filter: alpha(opacity=50);
 	color: grey;
-	/*transform: scale(1.05);*/transition: all 0.5s ease;
+	transition: all 0.5s ease;
 	z-index: 1;
 	cursor: pointer;
 }
 
-.box3 {
-	width: 374px;
-	height:390px;
-	background-image: url("../img/about_03.jpg");
-	margin: 0;
-	padding: 0;
+.box3 img {
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size:cover;
 }
 
 .box3:hover {
-	background-image: url("../img/about_03_c.jpg");
+	background-image: url("../img/about_03.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
 	opacity: 0.95;
 	filter: alpha(opacity=50);
 	color: grey;
@@ -317,6 +314,12 @@ h3 {
 	padding-top: 40px;
 }
 
+.bx_wrap_serv ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
 .box_cont_serv {
 	width: 374px;
 	margin: 0;
@@ -330,7 +333,7 @@ h3 {
 }
 /*------- works -------------------------------------*/
 #works {
-	max-height: 900px;
+	max-height: 800px;
 	width: 100%;
 	text-align: center;
 	background-color: #fff;
@@ -530,6 +533,9 @@ h4 {
 }
 
 #team_bxx ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
 	margin: 0px;
 	padding: 0px;
 }

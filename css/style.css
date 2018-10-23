@@ -156,7 +156,6 @@ h5 { /*-- know more---*/
 	/*color: #fff;*/
 }
 
-
 /* -------BannerEnd ------------------------------------*/
 .content_wrap {
 	height:auto;
@@ -571,7 +570,6 @@ h4 {
     height: 100%;
 }
 
-
 .overlay h6 {
 	color: white;
 	font-size: 20px;
@@ -882,7 +880,6 @@ h2 {
 	font-weight: bold;
 }
 
-
 h4 {
 	font-size: 1.4em;
 }
@@ -891,7 +888,6 @@ h5 {
 	font-size: 0.9em;
 	margin-top: 25px;
 }
-
 
 #about {
   height: auto;
@@ -918,7 +914,6 @@ h3 {
 	justify-content: center;
 	display: block;
 }
-
 
 .box1 img{
 	width:auto;
@@ -970,7 +965,6 @@ h3 {
 	width: 80%;
 }
 
-
 .bx_wrap_serv {
 	width: 100%;
 }
@@ -980,7 +974,6 @@ h3 {
 	flex-flow: column;
 	justify-content: center;
 }
-
 
 .box_cont_serv {
 	width: 100%;
@@ -1256,7 +1249,6 @@ h3 {
 	justify-content: center;
 }
 
-
 .box1 img{
 	width:auto;
 	/*height:560px;*/
@@ -1302,8 +1294,6 @@ h3 {
 	overflow: hidden;
 }
 
-
-
 #works {
    width: auto;
    overflow: auto;
@@ -1341,8 +1331,6 @@ h3 {
 
 #ourteam {
    width: 100%;
-/*   height: auto;
-   overflow: hidden;*/
 }
 #ourteam p {
  	width: 80%;

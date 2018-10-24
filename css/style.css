@@ -1295,8 +1295,7 @@ h3 {
 }
 
 #works {
-   width: auto;
-   overflow: auto;
+  max-height: none;
 }
 .box_cont_works {
 	width: auto;
